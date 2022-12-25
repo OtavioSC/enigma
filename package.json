@@ -1,10 +1,20 @@
 {
   "name": "enigma",
-  "displayName": "enigma",
-  "description": "a dark theme, but better.",
+  "displayName": "Enigma Theme",
+  "description": "Enigmatic dark color theme that evokes the feeling of the unknown.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.74.0"
+  },
+  "icon": "icons/icon-enigma.png",
+  "author": {
+    "name": "Otávio Carmo",
+    "email": "contato@otaviocarmo.com.br",
+    "url": "https://linkedin.com/in/otaviosc"
+  },
+  "repository": {
+    "url": "https://github.com/OtavioSC/enigma.git",
+    "type": "git"
   },
   "categories": [
     "Themes"

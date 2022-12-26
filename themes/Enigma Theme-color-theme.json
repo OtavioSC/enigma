@@ -1,10 +1,21 @@
 {
 	"name": "Enigma Theme",
 	"colors": {
+		"editorLineNumber.foreground": "#504858",
+		"menu.border": "#161616",
+		"menu.foreground": "#161616",
+		"menu.background": "#161616",
+		"titleBar.activeBackground": "#161616",
 		"editor.background": "#161616",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#c492ff",
-		"sideBarTitle.foreground": "#d0ccd1"
+		"sideBarTitle.foreground": "#d0ccd1",
+		"sideBar.foreground": "#eeffff",
+		"sideBar.border": "#161616",
+		"tab.inactiveBackground": "#0e0e0e",
+		"activityBar.background": "#161616",
+		"sideBar.background": "#161616",
+		"sideBarSectionHeader.background": "#161616"
 	},
 	"tokenColors": [
 		{
@@ -15,7 +26,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#061218"
+				"foreground": "#0efb71"
 			}
 		},
 		{

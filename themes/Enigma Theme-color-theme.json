@@ -15,7 +15,8 @@
 		"tab.inactiveBackground": "#0e0e0e",
 		"activityBar.background": "#161616",
 		"sideBar.background": "#161616",
-		"sideBarSectionHeader.background": "#161616"
+		"sideBarSectionHeader.background": "#161616",
+		"editorGroupHeader.tabsBackground": "#161616"
 	},
 	"tokenColors": [
 		{
@@ -75,18 +76,26 @@
 				"keyword.control",
 				"constant.other.color",
 				"punctuation",
-				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
 			],
 			"settings": {
 				"foreground": "#9b5de5"
+			}
+		},
+		{
+			"name": "Meta tag",
+			"scope": [
+				"meta.tag",
+				"punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "#f5edc5"
 			}
 		},
 		{
